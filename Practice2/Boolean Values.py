@@ -1,0 +1,5 @@
+print(4>0)
+print(bool(""))
+print(bool(8))
+print(bool(0))
+print(True)
