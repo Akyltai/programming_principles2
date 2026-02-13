@@ -18,4 +18,3 @@ sort = sorted(serials.keys())
 
 for i in sort:
     print (f"{i} {serials[i]}")
-    
