@@ -4,7 +4,7 @@ import json
 def normalize_price(price_str):
     return float(price_str.replace(" ", "").replace(",", "."))
 
-with open(r"Practice_5/raw.txt", "r", encoding="utf-8") as f:
+with open("raw.txt", "r", encoding="utf-8") as f:
     text = f.read()
 
 #1. Extract all prices
